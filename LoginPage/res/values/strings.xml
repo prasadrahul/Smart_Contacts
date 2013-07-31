@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">LoginPage</string>
+    
+    <!-- Strings related to login -->
+    
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="Sign_In">SIGN IN</string>
+    <string name="Register">Create New Account</string>
+    <string name="Theme">Theme *</string>
+    <string name="Language">Language *</string>
+    
+    
+
+    <string name="select_lang">""*"" Select Your Language..</string>
+    <string name="English">ENGLISH</string>
+    <string name="German">GERMAN</string>
+   
+ 
+    
+    
+    
+    <!-- Strings related to new registration page -->
+    
+    <string name="rprompt_email">Email</string>
+    <string name="rprompt_password">Password</string>
+    <string name="Sign_Up">Register Now</string>
+    
+    <!-- Strings related to login task -->
+    
+    <string name="tv1">Hello Rahul Prasad choose your Option..</string>
+    <string name="Default_Theme">DEFAULT THEME</string>
+    <string name="Theme_1">THEME-1</string>
+    <string name="Theme_2">THEME-2</string>
+    <string name="Language_1">ENGLISH</string>
+    <string name="Language_2">GERMAN</string>
+
+    <string name="menu_forgot_password">Try Again</string>
+    
+     <string name="Select_theme">""*"" Select Your Theme..</string>
+    <string name="Themes_one">Default</string>
+    <string name="Themes_two">RED</string>
+    <string name="Themes_three">Sky Blue</string>
+    
+
+    
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">Login-Seite</string>
+    
+    <!-- Strings related to login -->
+    
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Kennwort</string>
+    <string name="Sign_In">ANMELDEN</string>
+    <string name="Register">Neuer Benutzer</string>
+    
+    <string name="Theme">Thema *</string>
+    <string name="Language">Language *</string>
+    
+    <!-- Strings related to login task -->
+    
+    
+    <string name="rprompt_email">Email</string>
+    <string name="rprompt_password">Kennwort</string>
+    <string name="Sign_Up">ANMELDEN</string>
+    
+    
+    <string name="tv1">Hallo Rahul Prasad wählen Sie Ihre Option ..</string>
+    <string name="Default_Theme">STANDARD-THEMA</string>
+    <string name="Theme_1">THEMA-1</string>
+    <string name="Theme_2">THEMA-2</string>
+    <string name="Language_1">ENGLISCH</string>
+    <string name="Language_2">DEUTSCH</string>
+
+    <string name="menu_forgot_password">Versuchen Sie es Erneut</string>
+    
+    <string name="Select_theme">""*"" Wählen Sie Ihre Themen..</string>
+     <string name="Themes_one">Default</string>
+    <string name="Themes_two">RED</string>
+    <string name="Themes_three">Sky Blue</string>
+    
+    <string name="select_lang">""*"" Wählen Sie Ihre Sprache..</string>
+    <string name="English">ENGLISCH</string>
+    <string name="German">DEUTSCH</string>
+    
+    
+    
+    
+</resources>

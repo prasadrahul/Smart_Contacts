@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Login form -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/epaisa_image" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_password"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:layout_marginBottom="70dp"
+            android:background="@color/custom_theme_color"
+            android:text="@string/Sign_In" />
+        
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Theme"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/Theme" />
+
+        <Button
+            android:id="@+id/Language"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/Language" />
+        
+        </LinearLayout>
+
+    	<ImageView
+    	    android:id="@+id/imageView2"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:src="@drawable/login_space" />
+
+    	<Button
+    	    android:id="@+id/sign_up_button"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    
+    	    android:paddingLeft="32dp"
+    	    android:paddingRight="32dp"
+    	    android:text="@string/Register" />
+        
+</LinearLayout>

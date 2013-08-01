@@ -26,7 +26,7 @@ public class Language extends Activity implements OnClickListener{
           findViewById(R.id.bt2).setOnClickListener(this);
        
     }
-
+// hello aaditya
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
